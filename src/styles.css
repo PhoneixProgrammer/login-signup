@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  -webkit-font-smoothing: auto;
+  -moz-font-smoothing: auto;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: auto;
+  text-rendering: optimizeLegibility;
+  font-smooth: always;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+.tabs-container{
+    font-family:sans-serif;
+    width : 300px;
+    margin : 20px auto;
+}
+
+.tab-headers {
+    display :flex;
+    border-bottom : 1px solid #FFFFFF;
+}
+
+.tab-button{
+    flex : 1;
+    padding : 10px;
+    cursor : pointer;
+    background-color: #f1f1f1;
+    border: none;
+    border-bottom : 2px solid transparent;
+transition : background-color 0.3s;
+}
+
+.tab-button:hover{
+        background-color :#ddd;
+}
+.tab-button.active{
+    border-bottom : 2px solid #007bff;
+    font-weight : bold;
+    background-color: white;
+}
+
+.tab-content {
+    padding : 15px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-top:none;
+}
