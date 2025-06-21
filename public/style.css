@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  -webkit-font-smoothing: auto;
+  -moz-font-smoothing: auto;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-smooth: always;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+body,html{
+    margin: 0;
+    padding : 0;
+    height :100%;
+    display :flex;
+    justify-content:center;
+    align-items : center;
+    background-color:#f4f4f4;
+    font-family:sans-serif;
+}
+
+.banner{
+    position : fixed;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+     background-color: #007bff;
+    color:white;
+   padding: 40px 60px;
+    tex-align : center;
+    border-radius : 12px;
+    align-items: center;
+    z-index: 9999;
+}
